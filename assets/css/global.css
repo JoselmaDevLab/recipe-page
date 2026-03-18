@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "YoungSerif-Regular";
+  src: url("../fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit-VariableFont_wght";
+  src: url("../fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
