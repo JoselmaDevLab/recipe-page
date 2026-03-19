@@ -31,7 +31,8 @@ img{
     width: 100%;
     border-radius: 6px;
 }
-
+/* ================================================== */
+/* ================================================== */
 .preparo{
     background-color:#fff7fc ;
     margin: 20px 0;
@@ -61,4 +62,36 @@ img{
 .preparo li span{
     margin-left: 20px;
     font-weight: 600;
+}
+
+/* ================================================== */
+/* ================================================== */
+
+.ingredients{
+    margin: 20px 0;
+    border-bottom: 0.5px solid #70544652;
+    padding: 10px 0 30px;
+}
+
+.ingredients h2{
+    color: #705446;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "YoungSerif-Regular", serif;
+
+}
+
+.ingredients ul{
+    margin-left: 25px;
+}
+
+.ingredients li{
+    padding-top: 15px;
+}
+.ingredients li::marker{
+    color: #705446 ;
+}
+
+.ingredients li span{
+    margin-left: 20px;
 }
