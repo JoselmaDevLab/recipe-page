@@ -74,7 +74,7 @@ img{
 }
 
 .ingredients h2{
-    color: #705446;
+    color: #784436;
     font-size: 25px;
     font-weight: 400;
     font-family: "YoungSerif-Regular", serif;
@@ -88,10 +88,55 @@ img{
 .ingredients li{
     padding-top: 15px;
 }
+
 .ingredients li::marker{
-    color: #705446 ;
+    color: #705446;
 }
 
 .ingredients li span{
+    margin-left: 0;
+}
+
+/*======================================================== */
+/*======================================================== */
+
+.instructions{
+    margin: 20px 0;
+    border-bottom: 0.5px solid #70544652;
+    padding: 10px 0 30px;
+}
+
+
+.instructions h2{
+    color: #784436;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "YoungSerif-Regular", serif;
+
+}
+
+.instructions ol{
+    margin-left: 8px;
+    padding-left: 20px;
+
+}
+
+.instructions li{
+    text-align: left;
+    line-height: 1.2;
+    padding: 15px 0 0 20px;
+       
+}
+
+.instructions li::marker{
+    color: #753f34;
+    font-weight: 600;
+
+}
+
+.instructions li span{
+    font-weight: 600;
+}
+.instructions li p{
     margin-left: 20px;
 }
