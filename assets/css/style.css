@@ -1,5 +1,4 @@
 
-
 body{
     background-color: #f3e5d8;
     width: 100vw;
@@ -13,7 +12,7 @@ main{
     width: 60%;
     background-color: white;
     margin: 3rem auto;
-    padding: 45px;
+    padding: 45px 45px 0 45px;
     border-radius: 14px;
     
 }
@@ -173,7 +172,7 @@ img{
 table td,
 table th {
   white-space: nowrap;
-  padding: 10px 30px;
+  padding: 10px 10px 10px 30px;
   text-align: left;
   border-bottom: 0.5px solid #70544652;
   width: 50%;
@@ -192,7 +191,34 @@ th:nth-child(2) {
 
 th:nth-child(1) {
     font-weight: 300;
-
 }
 
+tr:last-child td {
+    border: none;
+}
 
+@media (max-width: 425px){
+    
+    body {
+        background-color: #fff;
+    }
+
+    main {
+        width: 100%;
+    background-color: white;
+    padding: 25px;
+    margin: 0;
+    border-radius: 0;
+    }
+
+    img{
+    width: 100vw;
+    border-radius: 0;
+    margin: -25px 0 0 -25px;
+    }
+
+    .nutrition table{
+        min-width: 0;
+    }
+
+}
