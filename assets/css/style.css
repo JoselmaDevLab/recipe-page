@@ -140,3 +140,55 @@ img{
 .instructions li p{
     margin-left: 20px;
 }
+
+/* ========================================================== */
+
+.nutrition{
+    margin: 20px 0;
+    padding: 10px 0 30px;
+}
+
+
+.nutrition h2{
+    color: #784436;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "YoungSerif-Regular", serif;
+    padding: 20px 0px;
+
+}
+
+.nutrition table{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+    min-width: 360px;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+
+
+table td,
+table th {
+  white-space: nowrap;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 0.5px solid #70544652;
+}
+
+td:nth-child(2) {
+    color: #784436;
+    font-weight: 800;
+}
+
+th:nth-child(2) {
+    color: #784436;
+    font-weight: 800;
+}
+
+th:nth-child(1) {
+    font-weight: 300;
+
+}
+
