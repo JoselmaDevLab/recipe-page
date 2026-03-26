@@ -13,7 +13,7 @@ main{
     width: 60%;
     background-color: white;
     margin: 3rem auto;
-    padding: 25px;
+    padding: 45px;
     border-radius: 14px;
     
 }
@@ -142,6 +142,7 @@ img{
 }
 
 /* ========================================================== */
+/* ========================================================== */
 
 .nutrition{
     margin: 20px 0;
@@ -160,21 +161,23 @@ img{
 
 .nutrition table{
     margin-top: 20px;
-    margin-left: 20px;
     padding-left: 20px;
     min-width: 360px;
     width: 100%;
     border-collapse: collapse;
     border-spacing: 2px;
+
 }
 
 
 table td,
 table th {
   white-space: nowrap;
-  padding: 10px;
+  padding: 10px 30px;
   text-align: left;
   border-bottom: 0.5px solid #70544652;
+  width: 50%;
+
 }
 
 td:nth-child(2) {
@@ -191,4 +194,5 @@ th:nth-child(1) {
     font-weight: 300;
 
 }
+
 
