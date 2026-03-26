@@ -36,7 +36,7 @@ O layout foi baseado no guia de estilo fornecido:
 1. Clone este repositório:
 
    ```bash
-   git clone [https://github.com/JoselmaDevLab/recipe-page.git](https://github.com/JoselmaDevLab/recipe-page.git)
+   git clone https://github.com/JoselmaDevLab/recipe-page.git
 
    ```
 
